@@ -11,4 +11,4 @@ launch.browser = function(appUrl, browser.path=chrome.sys) {
     shell(sprintf('"%s" --app=%s', browser.path, appUrl))
 }
 
-shiny::runApp('./shiny/', launch.browser=launch.browser)
+shiny::runApp('./shiny_speed/', launch.browser=launch.browser)
